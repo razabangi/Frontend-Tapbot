@@ -1,0 +1,215 @@
+@font-face {
+	font-family: 'Montserrat';
+	src:url(../fonts/MontserratAlternates-Regular.otf);
+}
+
+.red
+{
+	background: red;
+}
+
+.green
+{
+	background: green;
+}
+
+.blue
+{
+	background: blue;
+}
+
+nav
+{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.main_nav
+{
+	padding-top: 20px;
+	margin-left: 10px;
+}
+
+.main_nav img
+{
+	float: right;
+} 
+
+
+.top_nav ul
+{
+	padding-top: 30px;
+	float: right;
+}
+
+.top_nav ul li
+{
+	float: left;
+}
+
+.top_nav ul li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.slider
+{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.available
+{
+	position: absolute;
+	top: -35px;
+	right: -40px;
+}
+
+.product_bg
+{
+	position: relative;
+	margin-bottom: 114px;
+}
+
+.inner_bg
+{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.inner_bg h3,.inner_bg p
+{
+	text-align: center;	
+}
+
+.inner_bg h3
+{
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 1px #fff;
+	margin-bottom: 5px;
+}
+
+.inner_bg p
+{
+	font-family: arial;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: grey;
+	text-shadow: 1px 2px 1px white;
+}
+
+footer
+{
+	border-top: 5px solid #c0c0c8;
+	height: 400px;
+	background: #19191a;
+}
+
+.company_bg_box
+{
+	position: relative;
+	margin-top: 42px;
+	margin-bottom: 30px;
+}
+
+.company_promo_bg
+{
+	position: absolute;
+	top: -100px;
+	left: 10px;
+}
+
+.company_promo_bg h3
+{
+	color: #ccc;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+
+.company_promo_bg p
+{
+	font-family: arial;
+	text-align:center;
+	color: grey;
+	/*text-align: justify;*/
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.mailinglist
+{
+	background: url('../images/mailinglist_bg.gif');
+	height: 60px;
+	position: relative;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+.mailinglist_icon
+{
+	position: absolute;
+	top: -5px;
+	left: -40px;
+}
+
+.mailing_title
+{
+	padding-left: 60px;
+}
+
+.mailing_submit
+{
+
+}
+
+.mailing_submit ul
+{
+	margin-top: 15px;
+}
+
+.mailing_submit ul li
+{
+	display: inline;
+	margin-right: 5px;
+}
+
+.mailing_submit ul li input[type="email"]{
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	outline: none;
+
+}
+
+.mailing_submit ul li input[type="button"]
+{
+	padding: 5px 20px;
+	background: #b63d3e;
+	color: #fff;
+	border: 1px solid grey;
+	outline: none;
+	border-radius: 5px;
+	font-size: 12px;
+	font-family: Montserrat;
+
+}
+
+.copyright
+{
+	font-size: 12px;
+	color: #565656;
+	font-family: arial;
+	text-transform: uppercase;
+}
